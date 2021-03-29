@@ -1,0 +1,12 @@
+.toDoListMain {
+    margin-bottom: 0.5rem;
+    .ant-btn {
+        padding: 0.2rem 0.2rem;
+        font-size: 1rem;
+    }
+    .content {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

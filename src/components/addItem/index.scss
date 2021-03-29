@@ -1,0 +1,27 @@
+.formAddListWrapper {
+    // margin-top: 0.7rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.3rem;
+    .username {
+        height: 3rem;
+        line-height: 3rem;
+        flex-grow: 1;
+    }
+
+    .listAddButton {
+        height: 3rem;
+        line-height: 3rem;
+        display: flex;
+        padding: 0 15px;
+    }
+    .ant-form-item {
+        margin-bottom: 0px;
+    }
+    .ant-form-item-explain,
+    .ant-form-item-extra {
+        position: absolute;
+        margin-top: 3rem;
+    }
+}
